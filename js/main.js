@@ -1,5 +1,5 @@
 var ventana = window.innerWidth;
-alert("el ancho de la ventana es "+ ventana);
+/*alert("el ancho de la ventana es "+ ventana);*/
 
 var hsmenu = document.getElementById('h-s');
 hsmenu.addEventListener("click",function(){
