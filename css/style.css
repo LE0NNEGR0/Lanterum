@@ -783,6 +783,7 @@ header h1
 	background: green;
 	border-radius: 2px solid red;
 	*/
+	font-size: 40px;
 }
 #slider ol 
 	{
@@ -860,7 +861,7 @@ header h1
 	position: relative;
 	width: 100%;
 	height: 250px;
-	background: black;
+	background: green;
 	margin: 0px;
 	padding: 0px;
 }
@@ -1083,31 +1084,40 @@ header h1
 
 	#logo
 	{
-		left: 25%;
-		margin-top: -8%;
+		background: none;
+		left:12%;
+		width: 70%;
+		height: 70%;
+		margin-top: -4%;
 	}
 
 	#home h1
 	{
 
-		top: -50px;
+		top: 50px;
 		
 	}
 
 	#home h2
 	{
-		left: 7%;
+		top: -350px;
+		
+		font-size: 50px;
+		text-align: center;
+		background: none;
+		width: 30%;
 	}
 	
 	#main-conceptos,#main-lanterum,#main-grifo,#main-unicornio,#main-sirena,#main-centaur,#main-sobmi
 {
 	position: relative;
-	height: 340px;
-	width: 340px;
-	border-radius: 200px;
-	left: 31%;
-	top: 30px;
+	height: 600px;
+	width: 600px;
+	border-radius: 300px;
+	left: 20%;
+	top: 90px;
 	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	margin-bottom: 90px;
 }
 
 
@@ -1120,8 +1130,8 @@ header h1
 #main-centaur figure,
 #main-sobmi figure
 {
-	height: 330px;
-	width: 330px;
+	height: 570px;
+	width: 570px;
 	/*width: 100%;*/
 	/*height: 400px;*/
 	position: absolute;
@@ -1129,8 +1139,8 @@ header h1
 	margin: 0px;
 	padding: 0px;
 	border-radius: 500px;
-	left: 5px;
-	top: 5px;
+	left: 15px;
+	top: 15px;
 }
 
 #main-conceptos figure img
@@ -1181,24 +1191,578 @@ header h1
 	#next
 	{
 		position: absolute;
-		right: 15%;
-		margin-top: 10%;
+		right: 5%;
+		top: 60%;
 	}
 
-	#prev
-	{
-		position: absolute;
-		left: 15%;
-		margin-top: 10%;
-	}
+
+#prev
+{
+	top: 60%;
+	left: 5%;
+}
 	
+	#prev:before
+{
+	font-family: 'icomoon';
+	content: "\e908";
+	transform:rotate(90deg);
+	position: absolute;
+	color: #f5de46;
+	top: -12px;
+	left: 15px;
+	font-size: 9em;
+	cursor: pointer;
+
+}
+#prev:after
+{
+	
+	border-radius: 75px;
+	
+	width: 150px;
+	height: 150px;
+	
+}
+
+
+#next:before
+{
+	
+	font-family: 'icomoon';
+	content: "\e908";
+	transform:rotate(-90deg);
+	position: absolute;
+	color: #f5de46;
+	top: -2px;
+	right: 15px;
+	font-size: 8em;
+	cursor: pointer;
+}
+
+#next:after
+{
+	border-radius: 75px;
+	left: -180%;
+	width: 150px;
+	height: 150px;
+	background: black;
+}
+
 	.titulo
 {
 	position: relative;
 	top: 40px;
 	margin-bottom: 50px;
 }
+	
 
+	#Menu
+	{
+		width: 80%;
+		height: 70%;
+		margin-left: 10%;
+		position: fixed;
+		margin-top: -63%;
+	}
+
+	
+	#Menu:after
+{
+	content: '';
+	position: absolute;
+	background: black;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	margin:5px; 
+	z-index:-1;
+
+}
+
+.ovalod
+{
+	margin-left: 20px;
+	position: absolute;
+	margin-top: 30px;
+	background: linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	border-radius: 50px;
+	padding: 5px 20px 5px 20px;
+
+	
+}
+
+
+#Menu ul
+{
+	list-style: none;
+	margin-top: 20%;
+	margin-left: 10%;
+	
+	/*z-index: 3;*/
+	
+}
+
+#Menu ul li
+{
+	width: 70%;
+	height:110px;
+	background: black;
+	font-size: 2.2em;
+	margin-top: 2%;
+	
+}
+
+#menu ul li a
+{
+
+}
+
+#cg:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e904";
+	
+	position: relative;
+	
+
+}
+#cg a
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#cg a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 98%;
+	top: 3%;
+	left: 3%;
+	z-index: -1;
+}
+
+
+#ml
+{
+	/*background: orange;*/
+}
+
+#ml:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e902";
+	
+	font-size: 2.8em;
+}
+
+#ml a
+{
+	margin-left: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#ml a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+
+#mgd a
+{
+	margin-left: 10px;
+	position: absolute;
+	margin-top: 30px;
+	background: linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	border-radius: 50px;
+	padding: 5px 25px 5px 25px;
+	/*z-index: -1;*/
+	padding-left: 50px;
+	padding-right: 50px;
+
+
+}
+
+
+
+#mgd a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+	
+}
+#mgd
+{
+	/*background: blue;*/
+	
+
+}
+#mgd:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e907";
+	top: -15px;
+	font-size: 4em;
+
+	position: relative;
+	
+}
+
+#muo a
+{
+	margin-left: 40px;
+	padding-left: 25px;
+	padding-right:25px;
+}
+
+#muo:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e900";
+	top: 5px;
+	font-size: 3em;
+}
+
+#muo a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#msa a
+{
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+#msa a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#msa
+{
+	/*background: orange;*/
+}
+
+#msa:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e909";
+	top: -10px;
+	font-size: 3.8em;
+	position: relative;
+	
+}
+
+#mc a
+{	
+	margin-left: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+#mc a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#mc
+{
+	/*background: blue;*/
+}
+
+#mc:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e925";
+	top: 5px;
+	font-size: 2.6em;
+	
+}
+
+#sm a
+{
+	margin-left: 30px;
+	padding-left: 140px;
+	padding-right: 140px; 
+}
+
+#sm a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#sm:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e901";
+	top: 5px;
+	font-size: 2.8em;
+	
+}
+
+#luna
+{
+	/*background: pink;*/
+	position: relative;
+	display: block;
+	top: 0px;
+	width: 300px;
+	height: 100px;
+	margin-bottom: 200px;
+}
+
+#luna:before
+{
+	font-family: 'icomoon';
+	content: "\e90a";
+	position: relative;
+	display: block;
+	font-size: 18em;
+	color: white;
+	top: -25px;
+	margin-left: 300px;
+
+}
+
+#h-s
+{
+	background: linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	margin-left: 40%;
+	cursor: pointer;
+	box-shadow: -10px 10px grey;
+}
+
+#h-s:before
+{
+	font-family: 'icomoon';
+	content: "\e908";
+	position: absolute;
+	margin-left: 25px;
+	font-size: 9em;
+	color: white;
+	background: none;
+	z-index: 2;
+	transform:rotate(180deg);
+	margin-top: -5px;
+}
+
+#h-s:hover:before
+{
+	
+	transform:rotate(0deg);
+	margin-top: 0px; 
+	transition: 0.2s;
+}
+
+#h-s:after
+{
+	content: "";
+	width: 150px;
+	height: 150px;
+	background: black;
+	position: absolute;
+	border-radius: 75px;
+	z-index: 1;
+	margin-left: 5px;
+	margin-top: 5px; 
+}
+
+
+.redes
+{
+	left: -150px;
+	margin-bottom: -80px;
+	/*bottom: -300px;*/
+	width: 80%;
+	height: 15%;
+	background: black;
+	overflow-right: hidden;
+}
+.red
+{
+	position: absolute;
+	background: none;
+	/*border: 1px solid red;*/
+	/*border-radius: 50px;*/
+	width: 100%;
+	height: 100%;
+	top: 38%;
+	left: -300px;
+	z-index: 1;
+	cursor: pointer;
+
+}
+
+#r1
+{
+	position: absolute;
+	left: 15%;
+	
+}
+
+#r1:after,#r2:after,#r3:after,#h-s-redes:after
+{
+	content: "";
+	position: absolute;
+	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	width: 150px;
+	height: 150px;
+	left: 0px;
+	top: -10px;
+	border-radius: 75px;
+	top: 0px;
+	
+}
+
+#r1:before,#r2:before,#r3:before,#h-s-redes:before
+{
+	font-family: 'icomoon';
+	content: "\ea96";
+	position:relative;
+	color: white;
+	top: 20px;
+	left: 10px;
+	z-index: 20;
+	font-size: 6em;
+	background: black;
+	border-radius: 100px;
+	padding:15px;
+	
+}
+
+#r2:before
+{
+	font-family: 'icomoon';
+	content: "\ea90";
+}
+
+#r3:before
+{
+	font-family: 'icomoon';
+	content: "\ea92";
+}
+
+#r2
+{
+	position: absolute;
+	left: 43%;
+}
+
+#r3
+{
+	left: 70%;
+	padding-right: 0px;
+	}
+
+#h-s-redes
+{
+	position: absolute;
+	left: 43%;
+	top: -20%;
+	padding: 0px;
+	width: 150px;
+	height: 150px;
+	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	border-radius: 75px;
+	box-shadow: 5px -3px grey;
+
+}
+#h-s-redes:after
+{
+	width: 140px;
+	height: 140px;
+	background: black;
+	left: 5%;
+	top: 5%;
+}
+#h-s-redes:before
+{
+	font-family: 'icomoon';
+	content: "\e908";
+	transform:rotate(0deg);
+	position: absolute;
+	/*border-radius: 50px;
+	/*margin: 0px;*/
+	/*padding-left:20px;*/
+	font-size:9em;
+	left: 3%;
+	top: -8%;
+	background: none;
+	
+	
+}
+
+#h-s-redes:hover:before
+{
+	transform:rotate(180deg);
+	top: -15%;
+	transition: 0.3s;
+}
 
 }
 
