@@ -1,0 +1,1361 @@
+@font-face
+{
+	font-family: "Bell MT";
+	src: url("font/BELL.TTF");
+	
+}
+
+@font-face
+{
+	font-family: "Algerian";
+	src: url("font/ALGER.eot");
+	src:local('?'),
+		url("font/ALGER.ttf") format("truetype"),
+		url("font/ALGER.woff") format("woff")
+		;
+}
+
+@font-face
+{
+	font-family: "Monotype Corsiva";
+	src: url("font/MTCORSVA.eot");
+	src:local('?'),
+		url("font/MTCORSVA.ttf") format("truetype"),
+		url("font/MTCORSVA.woff") format("woff")
+		;
+}
+
+ul li a
+{
+
+	color: white;
+	text-decoration: none;
+	z-index: 1;
+
+}
+
+ul
+{
+	list-style: none;
+	
+
+	/*z-index: 3;*/
+	
+}
+
+ul li
+{
+	font-family: Algerian;
+
+	/*z-index: 3;*/
+
+}
+h2,h3
+{
+	font-family:Monotype Corsiva ;
+}
+
+
+body
+{
+	font-size:16px;
+	font-family: Bell MT;
+	background: black;
+	position: relative;
+	color: white;
+}
+
+header
+{
+	/*background: orange;*/
+	height: 400px;
+	margin-top: 80px;
+}
+
+header h1
+{
+	display: none;
+}
+#home h1,h2
+{
+	font-family: Monotype Corsiva;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+
+#home h1
+{
+	font-size: 3em;
+	/*background: blue;*/
+	width: 80%;
+	margin:10%;
+	top: -10px;
+}
+
+#home h2
+{
+	
+	/*background: red;*/
+	top: -200px;
+	width: 150px;
+	margin-left: 35%;
+	font-size: 1.8em;
+}
+
+#logo
+{
+	/*background: green;*/
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+#logoimg
+{
+	position: relative;
+	width: 100%;
+	/*margin-left: 2%;*/
+	margin-top: -140px;
+
+}
+
+
+.redes
+{
+	
+	color: yellow;
+	background: linear-gradient(45deg, #f5de46,#f8e778,#fff);
+	border: 5px ;
+	border-radius: 20px;
+	width: 450px;
+	height: 100px;
+	margin:15px;
+	position: fixed;
+	box-shadow: 5px -5px grey;
+	bottom:-110px;
+	z-index: 10;
+	padding-top: 30px;
+}
+
+.redes:after
+{
+	content: "";
+	background: black;
+	position: absolute;
+	top: 0px;
+	width: 430px;
+	height: 80px;
+	border-radius: 10px;
+	margin:10px; 
+	padding-top: 30px;
+}
+
+
+
+#Menu
+{
+	
+	position: fixed;
+	width: 450px;
+	height: 550px;
+	top: -530px;
+	margin:15px; 
+	border-radius: 20px;
+	background: linear-gradient(45deg, #f5de46,#f8e778,#fff);
+	box-shadow: -2px 5px grey;
+	z-index: 2;
+
+	
+}
+
+#Menu:after
+{
+	content: '';
+	position: absolute;
+	background: black;
+	top: 0px;
+	width: 440px;
+	height: 540px;
+	border-radius: 20px;
+	margin:5px; 
+	z-index:-1;
+
+}
+
+#Menu ul li a
+{
+
+	color: white;
+	text-decoration: none;
+	z-index: 1;
+
+}
+
+#Menu ul
+{
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 40px;
+
+	/*z-index: 3;*/
+	
+}
+
+#Menu ul li
+{
+	font-family: Algerian;
+
+	/*z-index: 3;*/
+
+}
+
+
+.icono
+{
+	/*background: red;*/
+	width: 300px;
+	height: 50px;
+	margin-left: 0px;
+}
+.ovalod
+{
+	margin-left: 10px;
+	position: absolute;
+	margin-top: 10px;
+	background: linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	border-radius: 50px;
+	padding: 5px 20px 5px 20px;
+	
+}
+
+
+/*#Menu  #cg a
+{
+	margin-left: 5px;
+}
+*/
+#cg:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e904";
+	font-size: 2.8em;
+	position: relative;
+	
+
+}
+
+#cg a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+
+#ml
+{
+	/*background: orange;*/
+}
+
+#ml:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e902";
+	
+	font-size: 2.8em;
+}
+
+#ml a
+{
+	margin-left: 20px;
+	padding-left: 41px;
+	padding-right: 42px;
+}
+
+#ml a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+
+#mgd a
+{
+	margin-left: 10px;
+	position: absolute;
+	margin-top: 10px;
+	background: linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	border-radius: 50px;
+	padding: 5px 25px 5px 25px;
+	/*z-index: -1;*/
+
+
+}
+
+
+
+#mgd a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+	
+}
+#mgd
+{
+	/*background: blue;*/
+	
+
+}
+#mgd:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e907";
+	top: -15px;
+	font-size: 4em;
+
+	position: relative;
+	
+}
+
+#muo a
+{
+	margin-left: 23px;
+	padding-left: 15px;
+	padding-right:15px;
+}
+
+#muo:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e900";
+	top: 5px;
+	font-size: 3em;
+}
+
+#muo a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#msa a
+{
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#msa a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#msa
+{
+	/*background: orange;*/
+}
+
+#msa:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e909";
+	top: -10px;
+	font-size: 3.8em;
+	position: relative;
+	
+}
+
+#mc a
+{	
+	margin-left: 18px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+#mc a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#mc
+{
+	/*background: blue;*/
+}
+
+#mc:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e925";
+	top: 5px;
+	font-size: 2.6em;
+	
+}
+
+#sm a
+{
+	margin-left: 16px;
+	padding-left: 72px;
+	padding-right: 72px; 
+}
+
+#sm a:before
+{
+	content: "";
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	width: 95%;
+	height: 94%;
+	top: 2%;
+	left: 3%;
+	z-index: -1;
+}
+
+#sm:before
+{
+	font-family: 'icomoon';
+	color: white;
+	content: "\e901";
+	top: 5px;
+	font-size: 2.8em;
+	
+}
+
+#luna
+{
+	/*background: pink;*/
+	position: relative;
+	display: block;
+	top: 0px;
+	width: 300px;
+	height: 100px;
+}
+
+#luna:before
+{
+	font-family: 'icomoon';
+	content: "\e90a";
+	position: relative;
+	display: block;
+	font-size: 10em;
+	color: white;
+	top: -25px;
+	margin-left: 160px;
+
+}
+
+#h-s
+{
+	background: linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 40px;
+	margin-left: 200px;
+	cursor: pointer;
+	box-shadow: -5px 3px grey;
+}
+
+#h-s:before
+{
+	font-family: 'icomoon';
+	content: "\e908";
+	position: absolute;
+	margin-left: 6px;
+	font-size: 3em;
+	color: white;
+	background: none;
+	z-index: 2;
+	transform:rotate(180deg);
+	margin-top: -5px;
+}
+
+#h-s:hover:before
+{
+	
+	transform:rotate(0deg);
+	margin-top: 0px; 
+	transition: 0.2s;
+}
+
+#h-s:after
+{
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: black;
+	position: absolute;
+	border-radius: 50px;
+	z-index: 1;
+	margin-left: 5px;
+	margin-top: 5px; 
+}
+
+.red
+{
+	position: absolute;
+	
+	/*border: 1px solid red;*/
+	/*border-radius: 50px;*/
+	width: 60px;
+	height: 60px;
+	top: 40%;
+	z-index: 1;
+	cursor: pointer;
+
+}
+
+#r1
+{
+	position: absolute;
+	left: 20%;
+	
+}
+
+#r1:after,#r2:after,#r3:after,#h-s-redes:after
+{
+	content: "";
+	position: absolute;
+	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: -10px;
+	border-radius: 50px;
+	top: 0px;
+	
+}
+
+#r1:before,#r2:before,#r3:before,#h-s-redes:before
+{
+	font-family: 'icomoon';
+	content: "\ea96";
+	position:relative;
+	color: white;
+	top: 12px;
+	left: 4px;
+	z-index: 20;
+	font-size: 2em;
+	background: black;
+	border-radius: 50px;
+	padding:10px;
+	
+}
+
+#r2:before
+{
+	font-family: 'icomoon';
+	content: "\ea90";
+}
+
+#r3:before
+{
+	font-family: 'icomoon';
+	content: "\ea92";
+}
+
+#r2
+{
+	position: absolute;
+	left: 45%;
+}
+
+#r3
+{
+	left: 70%;
+}
+
+#h-s-redes
+{
+	position: absolute;
+	left: 45%;
+	top: -20%;
+	padding: 0px;
+	width: 60px;
+	height: 60px;
+	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	border-radius: 50px;
+	box-shadow: 5px -3px grey;
+
+}
+#h-s-redes:after
+{
+	width: 50px;
+	height: 50px;
+	background: black;
+	left: 9%;
+	top: 10%;
+}
+#h-s-redes:before
+{
+	font-family: 'icomoon';
+	content: "\e908";
+	transform:rotate(0deg);
+	position: absolute;
+	/*border-radius: 50px;
+	/*margin: 0px;*/
+	/*padding-left:20px;*/
+	font-size: 3em;
+	left: 3%;
+	top: -5%;
+	background: none;
+	
+	
+}
+
+#h-s-redes:hover:before
+{
+	transform:rotate(180deg);
+	top: -15%;
+	transition: 0.3s;
+}
+
+/*#redes #h-s-redes
+{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: green;
+	top: 250px;
+	left: 250px;
+	z-index: 999;
+}*/
+/*#r2:after
+{
+	content: "";
+	position: absolute;
+	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: -10px;
+	border-radius: 50px;
+	top: 0px;
+	
+}*/
+
+/*#r2:before
+{
+	font-family: 'icomoon';
+	content: "\ea96";
+	position:relative;
+	color: white;
+	top: 12px;
+	left: 4px;
+	z-index: 20;
+	font-size: 2em;
+	background: black;
+	border-radius: 50px;
+	padding:10px;
+	
+}
+*/
+
+.navbutton
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: none;
+	top: 60px;
+	z-index: 10;
+
+}
+
+#prev
+{
+	left: 20px;
+}
+#prev:before
+{
+	font-family: 'icomoon';
+	content: "\e908";
+	transform:rotate(90deg);
+	position: absolute;
+	color: #f5de46;
+	top: -2px;
+	left: 5px;
+	font-size: 3em;
+	cursor: pointer;
+
+}
+#prev:after
+{
+	content: "";
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 2px;
+	z-index: -1;
+	box-shadow: 5px 0px grey;
+}
+
+#next
+{
+	right: 20px;
+}
+#next:before
+{
+	
+	font-family: 'icomoon';
+	content: "\e908";
+	transform:rotate(-90deg);
+	position: absolute;
+	color: #f5de46;
+	top: -2px;
+	right: 3px;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+#next:after
+{
+	content: "";
+	background: black;
+	border-radius: 50px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 2px;
+	z-index: -1;
+	box-shadow: -5px 0px grey;
+}
+
+
+#slider
+{
+	/*width: 100%;
+	position: absolute;
+	height: 600px;
+	background: green;
+	border-radius: 2px solid red;
+	*/
+}
+#slider ol 
+	{
+		list-style-position: inside;
+	}
+
+#slider section.slide
+{
+	position: absolute;
+	width: 100%;
+	top: -50px;
+	left: 0px;
+
+}
+
+
+#slider
+{
+	background: black;
+}
+/*#slider #home
+{
+	height: 800px;
+	background: black;
+}
+
+#slider #conceptos
+{
+	height: 700px;
+	background: black;
+}
+
+#slider #magia-lanterum
+{
+	height: 600px;
+	background: black;
+}
+#slider #magia-grifo
+{
+	height: 500px;
+	background: red;
+}
+#slider #magia-unicornio
+{
+	height: 400px;
+	background: orange;
+}
+#slider #magia-sirena
+{
+	height: 300px;
+	background: blue;
+}
+#slider #magia-centauros
+{
+	height: 200px;
+	background: green;
+}
+#slider #sobre-mi
+{
+	height: 100px;
+	background: purple;
+}*/
+/**--------------------------seccion home*/
+#home h1
+{
+	font-family:Monotype Corsiva;
+}
+
+/*-------------------seccion coceptos geenerales*/
+
+
+
+#main-conceptos,#main-lanterum,#main-grifo,#main-unicornio,#main-sirena,#main-centaur,#main-sobmi
+{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	background: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#main-conceptos figure,
+#main-lanterum figure,
+#main-grifo figure,
+#main-unicornio figure,
+#main-sirena figure,
+#main-centaur figure,
+#main-sobmi figure
+{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-conceptos figure img
+
+{
+	width: 100%;
+}
+
+#main-lanterum figure img
+{
+	width: 100%;
+	margin-top: -100px;
+	
+}
+
+#main-grifo figure img
+{
+	width: 100%;
+	margin-top: -50px;
+}
+
+#main-unicornio figure img
+{
+	width: 100%;
+	margin-left: 0px;
+}
+
+#main-sirena figure img
+{
+	width: 100%;
+	margin-top: -220px;
+}
+
+#main-centaur figure img
+{
+	width: 100%;
+	margin-top: -40px;
+}
+
+#main-sobmi figure img
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -140px;
+}
+
+
+.titulo
+{
+	text-align: center;
+	border-top:3px solid white;
+	border-bottom:3px solid grey;
+	background: black;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Monotype Corsiva;
+}
+.menu-sec
+{
+	text-align: center;
+}
+.menu-sec li
+{
+	
+	margin-top: 5px;
+}
+.menu-sec li:hover
+{
+	
+	font-size: 1.2em;
+	color: yellow;
+	transition: 1s;
+}
+
+.attsec
+{
+	color: white;
+	text-align: center;
+	padding-bottom: 70px;
+	/*padding-top: 50px;*/
+	padding-left: 25px;
+	padding-right: 25px;
+	border-top: 2px solid white;
+}
+.attsec h2
+{
+	padding-top: 50px;
+}
+
+
+
+.img-h
+{
+	position: relative;
+	width: 100%;
+}
+#definiciones h3
+{
+	margin-top: 50px;
+	padding-bottom: 0px;
+}
+#definiciones p
+{
+	margin:0px;
+	margin-top:-20px; 	
+}
+
+#herramientas ul li
+{
+	font-family: Bell MT;
+}
+
+#sectec p
+{
+	margin-top: 50px;
+}
+
+#sh
+{
+	margin-bottom: 20px;
+}
+
+#secpociones h3
+{
+	margin-top: 65px;
+}
+
+.sub
+{
+	text-decoration: underline;
+}
+
+#menu-lanterum 
+{
+	text-align: center;
+}
+
+.listas li
+{
+	font-family: Bell MT;
+}
+
+
+
+/*.imgpri
+{
+	width: 100%;
+	/*height: 300px;
+	background: red;
+	position: relative;
+	/*top:100px;
+	left: 100px;
+	overflow: hidden;
+	/*z-index: 20;*/
+	/*border-radius: 500px;
+}
+
+.imgpri img
+{
+	height: 50%;
+}
+*/
+@media screen and (min-width: 480px) {
+	body
+	{
+		background: black;
+	}
+	header div
+	{
+		display: none;
+	}
+
+
+}
+
+@media screen and (min-width: 767px) {
+	body
+	{
+		background: orange;
+	}
+	
+	
+}
+
+@media screen and (min-width: 950px) {
+	body
+	{
+		background: black;
+	}
+
+	header
+	{
+		z-index: 30;
+		background: black;
+		position: fixed;
+		top: -100px;
+		left: 0px;
+		width: 100%;
+		height: 60px;
+		display: inline-block;
+		border-bottom: 2px solid yellow;
+	}
+	
+	header h1
+	{
+		position: fixed;
+		z-index: 30;
+		
+		font-family: Monotype Corsiva;
+		color: white;
+		margin-left:3%; 
+		display: block;
+	}
+
+	header div
+	{
+		position: relative;
+		display: inline-block;
+		background: black;
+		z-index: 31;
+		width: 80%;
+		height: 100%;
+		float: left;
+		margin-left: 260px;
+		border-left: 2px solid yellow;
+
+
+	}
+	header div h1
+	{
+		text-align: center;
+		background: black;
+		width: 50%;
+		margin-left: 250px;
+		position: fixed;
+	}
+	header div figure
+	{
+		display: inline-block;
+		float: left;
+		width: 45px;
+		height: 45px;
+		background: none;
+		margin-left:100px;
+		
+	}
+	
+	header div figure img
+	{
+		height: 100%;
+		
+	}
+	
+	#Menu
+	{
+		position: fixed;
+		margin-bottom: 0px;
+		top: 0;
+		left: -50px;
+		background: none;
+		box-shadow: none;
+		width: 20%;
+		/*height: 200px;*/
+		border:2px solid red;
+		z-index: 5;
+	}
+
+	#Menu ul li a
+	{
+		font-family: Monotype Corsiva;
+		padding:10px;
+		width: 150px;
+		font-size: 1em;
+		text-align: center;
+
+	}
+
+	#Menu ul
+	{
+		background: black;
+		padding: 0px;
+	}
+
+	#Menu ul li
+	{
+		background: none;
+	}
+	
+	#Menu:after
+	{
+		background: black;
+		width: 288px;
+		height: 650px;
+		border-right: 2px solid yellow;
+	}
+	#luna
+	{
+		
+		background: none;
+	}
+	
+	#luna:before
+	{
+		width: 100%;
+		top: 10px;
+		font-size: 7em;
+		left: -30px;
+
+	}
+	
+	#slider
+	{
+		padding:0px;
+		margin: 0px;
+		position: absolute;
+		margin-top: 80px;
+		width: 81%;
+		right: 0px;
+		background: grey;
+		z-index: 4; 
+	}	
+
+	
+	#h-s
+	{
+		display: none;
+	}
+
+	#redes
+	{
+		background: orange;
+		position: fixed;
+		margin-bottom: 0px;
+		top: 500px;
+		left: -50px;
+		background: none;
+		box-shadow: none;
+		width: 20%;
+		/*height: 200px;*/
+		
+		z-index: 5;
+	}
+	#redes:hover
+	{
+		background: none;
+	}
+	#redes:after
+	{
+		background: none;
+		width: 100%;
+	}
+
+	#h-s-redes
+	{
+		display: none;
+	}
+
+	#next
+	{
+		right: 200px;
+		top: 200px;
+	}
+
+	#prev
+	{
+		left: 450px;
+		top: 200px;
+	}
+	#home figure img
+	{
+		left: 75%;
+		top: -20%;
+	}
+
+	#home h1
+	{
+		top: -50px;
+	}
+
+	#home h2
+	{
+		top: -280px;
+		left: 85px;
+	}
+	
+
+	#main-conceptos,#main-lanterum,#main-grifo,#main-unicornio,#main-sirena,#main-centaur,#main-sobmi
+{
+	position: relative;
+	height: 340px;
+	width: 340px;
+	border-radius: 200px;
+	left: 35%;
+	top: 20px;
+	background:linear-gradient(45deg,#f5de46,#f8e778,#fff);
+}
+
+
+
+#main-conceptos figure,
+#main-lanterum figure,
+#main-grifo figure,
+#main-unicornio figure,
+#main-sirena figure,
+#main-centaur figure,
+#main-sobmi figure
+{
+	height: 330px;
+	width: 330px;
+	/*width: 100%;*/
+	/*height: 400px;*/
+	position: absolute;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 500px;
+	left: 5px;
+	top: 5px;
+}
+
+#main-conceptos figure img
+
+{
+	height: 100%;
+
+}
+
+#main-lanterum figure img
+{
+	width: 100%;
+	margin-top: 0px;
+	
+}
+
+#main-grifo figure img
+{
+	height: 100%;
+	margin-top: 0px;
+	
+}
+
+#main-unicornio figure img
+{
+	height: 100%;
+	margin-left: 0px;
+}
+#main-sirena figure img
+{
+	width: 100%;
+	margin-top: -100px;
+}
+
+#main-centaur figure img
+{
+	margin-top: 0px;
+}
+
+#main-sobmi figure img
+{
+	width: 100%;
+	margin: 0px;
+	margin-top: -50px;
+}
+
+.img-h
+{
+	width: 50%;
+}
+
+.titulo
+{
+	position: relative;
+	top: 30px;
+	margin-bottom: 50px;
+}
+
+}
