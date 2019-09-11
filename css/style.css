@@ -1,29 +1,39 @@
 @font-face
 {
 	font-family: "Bell MT";
-	src: url("font/BELL.TTF");
+	src: url("fonts/BELL.TTF");
 	
 }
 
 @font-face
 {
 	font-family: "Algerian";
-	src: url("font/ALGER.eot");
+	src: url("fonts/ALGER.eot");
 	src:local('?'),
-		url("font/ALGER.ttf") format("truetype"),
-		url("font/ALGER.woff") format("woff")
+		url("fonts/ALGER.ttf") format("truetype"),
+		url("fonts/ALGER.woff") format("woff")
 		;
 }
 
 @font-face
 {
 	font-family: "Monotype Corsiva";
-	src: url("font/MTCORSVA.eot");
+	src: url("fonts/MTCORSVA.eot");
 	src:local('?'),
-		url("font/MTCORSVA.ttf") format("truetype"),
-		url("font/MTCORSVA.woff") format("woff")
+		url("fonts/MTCORSVA.ttf") format("truetype"),
+		url("fonts/MTCORSVA.woff") format("woff")
 		;
 }
+
+body
+{
+	font-size:16px;
+	font-family: Bell MT;
+	background: black;
+	position: relative;
+	color: white;
+}
+
 
 ul li a
 {
@@ -56,16 +66,19 @@ h2,h3
 }
 
 
-body
-{
-	font-size:16px;
-	font-family: Bell MT;
-	background: black;
-	position: relative;
-	color: white;
-}
 
-header
+
+@media screen and (min-width: 480px) {
+	body
+	{
+		background: black;
+	}
+	header div
+	{
+		display: none;
+	}
+
+	header
 {
 	/*background: orange;*/
 	height: 400px;
@@ -1044,15 +1057,6 @@ header h1
 	height: 50%;
 }
 */
-@media screen and (min-width: 480px) {
-	body
-	{
-		background: black;
-	}
-	header div
-	{
-		display: none;
-	}
 
 
 }
