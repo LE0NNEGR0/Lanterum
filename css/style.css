@@ -65,20 +65,7 @@ h2,h3
 	font-family:Monotype Corsiva ;
 }
 
-
-
-
-@media screen and (min-width: 480px) {
-	body
-	{
-		background: black;
-	}
-	header div
-	{
-		display: none;
-	}
-
-	header
+header
 {
 	/*background: orange;*/
 	height: 400px;
@@ -1059,6 +1046,21 @@ header h1
 */
 
 
+
+
+@media screen and (min-width: 480px) {
+	body
+	{
+		background: black;
+	}
+	header div
+	{
+		display: none;
+	}
+
+	
+
+
 }
 
 @media screen and (min-width: 767px) {
@@ -1070,7 +1072,7 @@ header h1
 	
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1200px) {
 	body
 	{
 		background: black;
