@@ -1,3 +1,6 @@
+var ventana = window.innerWidth;
+alert("el ancho de la ventana es "+ ventana);
+
 var hsmenu = document.getElementById('h-s');
 hsmenu.addEventListener("click",function(){
 var menu = document.getElementById("Menu");
@@ -39,11 +42,20 @@ redes.addEventListener("click",function(){
 	}
 });
 
-function algo(){
+/*function algo(){
 location.reload()
 }
 window.onresize = algo
 
 if (window.onresize==true) {
 	location.reload()
+}*/
+
+function cambio()
+{
+	if(window.innerWidth!=ventana)
+	{
+		location.reload()
+	}
 }
+window.onresize = cambio
